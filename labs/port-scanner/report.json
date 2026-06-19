@@ -1,0 +1,8 @@
+{
+    "target_host": "scanme.nmap.org",
+    "status": "completed",
+    "detected_open_ports": [
+        22,
+        80
+    ]
+}
