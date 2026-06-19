@@ -1,22 +1,48 @@
-Cloud Security Journey
-Ce dépôt rassemble mes projets pratiques en cybersécurité et sécurité Cloud. L'objectif est de comprendre les bases du système et du réseau avant de déployer des infrastructures sécurisées.
+# Cloud Security Journey
 
-Phase 1 : Sécurité Système (Linux)
-Projet : Script d'audit de sécurité local (dans le dossier linux-audit-script/)
+Ce dépôt regroupe mes projets pratiques en cybersécurité et sécurité Cloud.
 
-Description : Un script Python qui vérifie les configurations critiques d'une machine Linux (droits du fichier /etc/shadow, intégrité des fichiers, etc.).
+Mon objectif est de développer des compétences solides en Linux, réseau, Python, AWS et Terraform à travers des projets concrets.
 
-Résultat : Calcule un score de sécurité global et génère un rapport au format JSON.
+## Phase 1 - Sécurité Linux
 
-Phase 2 : Sécurité Réseau
-Projet : Scanner de ports TCP dynamique (dans le dossier labs/port-scanner/)
+### Linux Audit Script
 
-Description : Un outil en Python utilisant le module socket pour tester la disponibilité des ports (de 20 à 100) sur une cible donnée en argument.
+Script Python permettant de :
 
-Résultat : Identifie les ports ouverts (comme le SSH 22 ou le HTTP 80) et exporte les résultats dans un fichier report.json.
+* Collecter des informations système
+* Analyser l'utilisation du disque
+* Analyser l'utilisation de la mémoire
+* Calculer un score de sécurité simple
+* Générer un rapport JSON
 
-Phase 3 : Sécurité Cloud (AWS)
-En cours de préparation : Étude théorique du Modèle de Responsabilité Partagée, des VPC, des Security Groups et des NACLs.
+Statut : Terminé
 
-Avis et Améliorations (Code Review)
-Ce projet est un laboratoire d'apprentissage. Si vous êtes un professionnel ou un passionné, n'hésitez pas à ouvrir une Issue pour me signaler ce qui peut être amélioré dans la structure du code ou la logique de sécurité. Les critiques constructives sont les bienvenues.# Cloud Security Journey
+## Phase 2 - Sécurité Réseau
+
+### Port Scanner
+
+Scanner TCP développé en Python avec le module `socket`.
+
+Fonctionnalités :
+
+* Test de connectivité TCP
+* Détection des ports ouverts
+* Découverte réseau de base
+
+Statut : Terminé
+
+## Phase 3 - Sécurité Cloud
+
+Projets prévus :
+
+* Terraform Security Scanner
+* AWS IAM Analyzer
+* S3 Public Bucket Detector
+* CloudTrail Log Analyzer
+* Secure VPC Design
+
+## Objectif
+
+Construire progressivement un portfolio orienté Cloud Security à travers des projets pratiques et documentés.
+
