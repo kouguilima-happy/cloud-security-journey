@@ -16,7 +16,7 @@ Script Python permettant de :
 * Calculer un score de sécurité simple
 * Générer un rapport JSON
 
-Statut : Terminé
+**Statut :** Terminé
 
 ## Phase 2 - Sécurité Réseau
 
@@ -30,7 +30,7 @@ Fonctionnalités :
 * Détection des ports ouverts
 * Découverte réseau de base
 
-Statut : Terminé
+**Statut :** Terminé
 
 ## Phase 3 - Sécurité Cloud
 
